@@ -146,10 +146,10 @@ Ticker class
 | params | <code>object</code> | The params |
 | params.base | <code>string</code> | Base |
 | [params.baseName] | <code>string</code> | The name of the base currency e.g. Ethereum. |
-| [params.baseReference] | <code>string</code> | A unique indentifier of the base currency on a particular blockchain. For example: on the Ethereum blockchain this would be the smart contract address, on EOS this would be the token name together with the account name and on Waves this should be the AssetId. e.g. 0x0000000000000000000000000000000000000000. |
+| [params.baseReference] | <code>string</code> | A unique identifier of the base currency on a particular blockchain. For example: on the Ethereum blockchain this would be the smart contract address, on EOS this would be the token name together with the account name and on Waves this should be the AssetId. e.g. 0x0000000000000000000000000000000000000000. |
 | params.quote | <code>string</code> | Quote |
 | [params.quoteName] | <code>string</code> | The name of the quote currency e.g. Tether. |
-| [params.quoteReference] | <code>string</code> | A unique indentifier of the quote currency on a particular blockchain. For example: on the Ethereum blockchain this would be the smart contract address, on EOS this would be the token name together with the account name and on Waves this should be the AssetId. e.g. 0xdac17f958d2ee523a2206206994597c13d831ec7. |
+| [params.quoteReference] | <code>string</code> | A unique identifier of the quote currency on a particular blockchain. For example: on the Ethereum blockchain this would be the smart contract address, on EOS this would be the token name together with the account name and on Waves this should be the AssetId. e.g. 0xdac17f958d2ee523a2206206994597c13d831ec7. |
 | [params.open] | <code>number</code> | The price of the market 24 hours ago |
 | [params.high] | <code>number</code> | The highest price of the market in the last 24 hours |
 | [params.low] | <code>number</code> | The lowest price of the market in the last 24 hours |
